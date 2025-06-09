@@ -1,0 +1,141 @@
+
+    <!DOCTYPE html> <!-- Define el tipo de documento HTML5 -->
+    <html lang="en"> <!-- Indica el idioma del contenido -->
+
+    <head>
+        <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Adaptabilidad a distintos dispositivos -->
+        <title>portafolio</title><!-- Título que aparece en la pestaña del 
+        navegador -->
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3736/3736502.png"><!-- imagen que aparece en la pestaña del navegador -->
+        <link rel="stylesheet" href="styles.css"><!-- enlazo el archivo externo styles.css -->
+        
+        <meta name="description" content=" portafolio personal de Sergio como desarrollador de riwi."><!-- creo la descripcion de la pagina-->
+
+    </head>
+
+    <nav id="indice" style="text-align: center;">
+        <h1>SERGIO BONILLA</h1> <!-- Encabezado principal -->
+        <ul>
+            <a href="#fsergio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </ul>
+    </nav>
+    <body>
+
+        <main>
+            <!-- Sección con imagen y descripción personal -->
+            <section id="fsergio">
+                <center>
+                    <img class="expand" src="imagenes/SERGIO.jpeg" title="foto Sergio" width="300px">
+                </center>
+
+                <p style="text-align: center;">
+                    <!-- Descripción personal -->
+                    Soy alguien dedicado, con grandes proyecciones y metas por alcanzar, con capacidades dentro y fuera
+                    del ámbito laboral, destacándose el gran sentido de la responsabilidad, la fácil forma de
+                    sociabilizar y mantener buenas relaciones con los que me rodean, poseo y mantengo bases éticas y
+                    morales, las cuales he venido desarrollando a través de mi experiencia personal.
+                    Capacitado para desenvolverme en situaciones de presión y complejidad. Capacitado para trabajar de
+                    manera eficiente y eficaz, de brindar una excelente atención al cliente en forma personal y
+                    telefónica; un dato sobre mi es que, mi pagina favortia es: 
+                    
+                    <a href="https://www.youtube.com">YOUTUBE</a>.
+                    
+                    <marquee>
+                        <img class="scrolls" src="imagenes/javalogo.jpg" alt="foto Java" width="75px">
+                        <img class="scrolls" src="imagenes/css.jpg" alt="foto Css" width="75px">
+                        <img class="scrolls" src="imagenes/htmllogo.jpg" alt="foto HTML"
+                            width="75px">
+                        <img class="scrolls" src="imagenes/c++logo.jpg" alt="foto C++" width="75px"
+                            height="100px">
+                        <img class="scrolls" src="imagenes/pythonlogo.jpg" alt="foto Python"
+                            width="75px" height="100px">
+                    </marquee>
+                </p>
+                
+            </section>
+            <!-- Perfil educativo y formativo -->
+            <h2 id="perfil">Perfil</h2>
+            <ul>
+                <li>
+                    EDUCACION SECUNDARIA: BACHILLER ACADÉMICO CON ÉNFASIS EN CIENCIAS NATURALES -- COLEGIO BIFFI LA
+                    SALLE DE BARRANQUILLA.
+                </li>
+                <li>
+                    EDUCACION FORMAL: INGENIERO MECATRÓNICO - UNIVERSIDAD AUTÓNOMA DEL CARIBE.
+                </li>
+                <li>
+                    SOFTWARE DEVELOPER (EN FORMACION) - RIWI .
+                </li>
+            </ul>
+
+
+
+            
+            <!-- Sección de proyectos -->
+            <h2 id="proyectos" style="text-align: center;">Proyectos</h2>
+            <ol class="Proyect"> <!--utilizo el elemnto <ol> con la clase proyecto y asi crear mi lista ordenada-->
+                <h3>Sistema de facturacion inteligente para negocios</h3>
+                <img class="expand" src="imagenes/sfactura.webp" title="Imagen realizada por chatGPT"
+                    width="500">
+                <p>
+                    Un sistema de facturación inteligente para negocios automatiza procesos, mejora la eficiencia y reduce errores. Ofrece herramientas para generar, enviar, recibir y gestionar facturas electrónicas de forma más rápida y segura, integrando datos de diferentes fuentes y ofreciendo información detallada sobre el estado de las facturas. 
+                </p>
+                
+
+                </a>
+                <h3>Mini robot recolector seguidor de linea</h3>
+                <img class="expand" src="imagenes/minirobot.webp" title="Imagen realizada por chatGPT"
+                    width="500">
+                <p>
+                    
+                    El mini robot seguidor de linea sigue la posición en la que se encuentran las líneas en un circuito de carreras y  mediante sensores ópticos, para poder seguir la línea correctamente se utilizan diferentes tipos de algoritmos de control, que logren mantener el robot sobre la línea y recorrer la trayectoria completa en el menor tiempo posible.
+                </p>
+                </a>
+
+                <h3>Semáforo inteligente con detección de flujo vehicular</h3>
+                <img class="expand" src="imagenes/semaforo.webp" title="Imagen realizada por chatGPT"
+                    width="500">
+                <p>
+                    
+                    Los semáforos inteligentes incorporan sensores de tráfico que monitorean el flujo vehicular en tiempo real. Estos sensores pueden detectar la presencia de vehículos, bicicletas y peatones, lo que permite ajustar las luces de manera dinámica en función de la demanda actual.
+                </p>
+                </a>
+            </ol>
+
+
+            <!-- Formulario de contacto -->
+            <h2 id="contacto">Contáctame</h2>
+            <form><!-- utilizo la etiqueta <form> para crear el formulario de contacto con los inputs -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+    </body>
+    <br>
+
+    <!-- Pie de página con información de contacto -->
+    <footer>
+
+        © Todos los derechos reservados por Sergio Bonilla 2025
+        <p><a href="https://workspace.google.com/intl/es-419/gmail/"> Contacta conmigo</a></p>
+        <p>
+            <td>Sergio Andres Bonilla Nuñez</td><br>
+            <td>19 de octubre del 2001</td><br>
+            <td>Barranquilla/Colombia</td><br>
+            <td>calle 90# 42E-37</td><br>
+            <td>3007053902</td><br>
+            <td>bsergio274@gmail.com</td><br>
+            <td>@sergiobonillanu</td><br>
+        </p>
+    </footer>
+
+    </html>
